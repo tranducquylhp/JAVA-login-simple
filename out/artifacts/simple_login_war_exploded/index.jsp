@@ -22,12 +22,12 @@
   </style>
 </head>
 <body>
-<form method="post" action="/login">
+<form method="get" action="http://localhost:8080/simple_login_war_exploded/login">
   <div class="login">
     <h2>Login</h2>
     <input type="text" name="username" size="30"  placeholder="username" />
     <input type="password" name="password" size="30" placeholder="password" />
-    <input type="submit" value="Sign in"/>
+    <input type="submit" value="Sign in" href = "http://localhost:8080/simple_login_war_exploded/login"/>
   </div>
 </form>
 </body>
